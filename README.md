@@ -10,7 +10,7 @@ This project was developed using FLOW, to recreate the results see their [readth
 
 For this project 20 cars using the IDM (intelligent Driver Model) which mimic the acceleration of human drivers were placed in the FLOW Minicity environment, cars were added until the average vehicle speed in the system dropped by 50% with 140 human driven cars. After that several different models were made where a portion of the human modeled drivers were replaced with a keras neural network trained using RLlib to address the reduction in speed. This neural network took the speed and location of the car as well as the speed and distances of the cars directly infront of and behind it to determine acceleration/deceleration for the vehicle. This policy was shared among all of the RL vehicles and the reward was based on the speed of all the vehicles in the system.
 
-![RL Acceleration Model](https://github.com/rlew631/AutonomousVehicleSimulation/blob/main/RL%20diagram.png?raw=true)
+![RL Acceleration Model](https://github.com/NhatGiaHuyT/autonomous-vehicle-simulation/blob/main/RL%20diagram.png?raw=true)
 
 ## The Models
 
@@ -26,4 +26,4 @@ To see a demo of the `ma_minicity_noise_20p` experiment in a jupyter notebook ta
 
 All of the experiments were run in the FLOW Minicity environment:
 
-<img src="https://github.com/rlew631/AutonomousVehicleSimulation/blob/main/minicity_static_cropped.png?raw=true" alt="FLOW Minicity Environment" width="500"/>
+<img src="https://github.com/NhatGiaHuyT/autonomous-vehicle-simulation/blob/main/minicity_static_cropped.png?raw=true" alt="FLOW Minicity Environment" width="500"/>
